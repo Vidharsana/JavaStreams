@@ -10,8 +10,10 @@ public class Filterdemo2 {
 		List<Integer> numList = Arrays.asList(102,157,203,254,30);
 		List<Integer> evenNumList=new ArrayList<Integer>();
 		
+		
 		//numList.stream().filter(n->n%2==0).forEach(n->System.out.println(n));
 		numList.stream().filter(n->n%2==0).forEach(System.out::println);
+		
 		
 	}
 }

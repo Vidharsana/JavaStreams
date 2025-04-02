@@ -15,7 +15,6 @@ public class Filterdemo1 {
 		numberList.add(25);
 		numberList.add(30);*/
 		
-		
 		List<Integer> numList = Arrays.asList(10,15,20,25,30);
 		List<Integer> evenNumList=new ArrayList<Integer>();
 		

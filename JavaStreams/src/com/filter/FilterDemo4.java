@@ -12,6 +12,5 @@ public class FilterDemo4 {
 		List<String> res=li.stream().filter(w->w!=null).collect(Collectors.toList());
 		
 		System.out.println(res);
-		
 	}
 }
